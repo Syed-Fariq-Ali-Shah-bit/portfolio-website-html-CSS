@@ -1,0 +1,117 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bcc1c1;
+    color: #04010e;
+    line-height: 1.6;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* ===== Headings ===== */
+h1 {
+    text-align: center;
+    color: #8e9090;
+}
+
+h2, h3 {
+    color: #131418;
+    margin-bottom: 10px;
+}
+h4 {
+    color:#8e9090;
+    margin-bottom: 10px;
+}
+
+/* ===== Sections ===== */
+.style-1 {
+    background-color: #8e9090;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #191b23;
+    border-radius: 6px;
+}
+
+.style-2 {
+    background-color: #060607;
+    color: #8e9090;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* ===== Images ===== */
+img {
+    display: block;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* ===== Lists ===== */
+ol {
+    margin-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* ===== Forms ===== */
+form {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 250px;
+    padding: 6px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #080809;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0c2461;
+}
+
+/* ===== Links ===== */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    margin-top: 30px;
+}

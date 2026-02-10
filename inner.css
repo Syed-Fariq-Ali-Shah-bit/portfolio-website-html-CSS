@@ -1,0 +1,72 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bcc1c1;
+    color: #020202;
+    line-height: 1.6;
+}
+
+/* ===== Main Layout ===== */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* ===== Headings ===== */
+h1 {
+    text-align: center;
+    color: #8e9090;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #060606;
+    margin-bottom: 10px;
+}
+
+/* ===== Certificate Title Section ===== */
+.style-3 {
+    background-color: #090909;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 6px solid #8e9090;
+    border-radius: 6px;
+}
+
+/* ===== Certificate Content Sections ===== */
+.style-4 {
+    background-color: #8e9090;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-left: 5px solid #0b0b0b;
+    border-radius: 6px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    margin-top: 10px;
+}
+
+/* ===== Images ===== */
+img {
+    display: block;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Emphasis ===== */
+strong {
+    color: #0c2461;
+}
+
+i {
+    color: #555;
+}
